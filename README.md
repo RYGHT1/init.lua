@@ -1,4 +1,4 @@
 # init.lua
 dependecies:
-    * grep
-    * any c compiler
+    grep;
+    any c compiler;
