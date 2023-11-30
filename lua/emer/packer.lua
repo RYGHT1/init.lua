@@ -32,6 +32,7 @@ return require('packer').startup(function(use)
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
+    use('tpope/vim-commentary')
 
     use {
         "williamboman/mason.nvim",
@@ -62,5 +63,7 @@ return require('packer').startup(function(use)
             {'L3MON4D3/LuaSnip'},
         }
     }
+    use('vim-airline/vim-airline')
+    use('vim-airline/vim-airline-themes')
 
 end)
