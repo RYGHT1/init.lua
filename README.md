@@ -1,3 +1,3 @@
 # init.lua
 dependecies:
-    - grep
+    * grep
