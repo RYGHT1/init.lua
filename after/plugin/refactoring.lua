@@ -35,3 +35,4 @@ require('refactoring').setup({
         {"n", "x"},
         "<leader>rr",
         function() require('telescope').extensions.refactoring.refactors() end)
+
