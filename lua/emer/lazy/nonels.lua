@@ -16,8 +16,6 @@ return {
 
                 null_ls.builtins.completion.spell,
 
-                null_ls.builtins.formatting.google_java_format,
-
                 null_ls.builtins.formatting.rubocop,
                 null_ls.builtins.diagnostics.rubocop,
             },
