@@ -17,6 +17,11 @@ vim.api.nvim_create_autocmd('filetype', {
     end
 })
 
+
+vim.keymap.set("n", "<leader>b", "<C-o>")
+
+vim.keymap.set("n", "<leader>w", "<C-i>")
+
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
@@ -31,12 +36,6 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "Q", "<nop>")
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
-
--- Refactors
--- vim.api.nvim_set_keymap('n', '<leader>re', '<Action>(RenameElement)viw', {})
--- vim.api.nvim_set_keymap('n', '<leader>rv', '<Action>(IntroduceVariable)', {})
--- vim.api.nvim_set_keymap('n', '<leader>rm', '<Action>(ExtractMethod)', {})
--- vim.api.nvim_set_keymap('n', '<leader>rs', '<Action>(SurroundWith)', {})
 
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")

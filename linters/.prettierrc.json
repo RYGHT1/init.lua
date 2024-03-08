@@ -1,0 +1,19 @@
+{
+    "semi": false,
+    "singleQuote": false,
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "trailingComma": "es5",
+            }
+        },
+    {
+      "files": "*.html",
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
