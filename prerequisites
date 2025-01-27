@@ -1,0 +1,11 @@
+llvm
+ripgrep
+python3
+luarocks
+fd
+fdfind
+fzf
+node
+
+llvm ripgrep python3 luarocks fd fdfind fzf node
+
